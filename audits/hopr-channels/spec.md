@@ -70,13 +70,5 @@ HoprChannels should:
 
 ## Learning more about HoprChannels
 
-Our [yellowpaper](https://github.com/hoprnet/hoprnet/blob/whitepaper-v2/docs/yellowpaper/yellowpaper.pdf) described in detail how our whole protocol works.
-Sections A,B,C are the most relevant for the audit, but we suggest to read it all to get a whole picture of the protocol.
-
-## Differences between the yellow paper and HoprChannels
-
-While the concept remains the same, there are some minor differences between how the current implementation of HoprChannels is and what we describe in the yellow paper.
-Below we provide a list of said differences.
-
-- diff A
-- diff B
+Our [yellowpaper](https://github.com/hoprnet/hoprnet/blob/whitepaper-v2/docs/yellowpaper/yellowpaper.pdf) described in detail how our protocol works.
+Sections 5 & 6 are the most relevant for the audit, but we suggest to read it all to get a whole picture of the protocol.
