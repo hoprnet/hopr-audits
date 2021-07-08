@@ -67,3 +67,8 @@ HoprChannels should:
   - source & destination must not be null addresses
   - increment `ticketEpoch`
   - if channel is `WAITING_FOR_COMMITMENT`, set it to `OPEN`
+
+## Learning more about HoprChannels
+
+Our [yellowpaper](https://github.com/hoprnet/hoprnet/blob/whitepaper-v2/docs/yellowpaper/yellowpaper.pdf) described in detail how our protocol works.
+Sections 5 & 6 are the most relevant for the audit, but we suggest to read it all to get a whole picture of the protocol.
