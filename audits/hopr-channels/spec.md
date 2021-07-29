@@ -67,6 +67,7 @@ HoprChannels should:
   - source & destination must not be null addresses
   - increment `ticketEpoch`
   - if channel is `WAITING_FOR_COMMITMENT`, set it to `OPEN`
+- bundled transactions (using MultiCall) should not open the smart contract to any loopholes
 
 ## Learning more about HoprChannels
 
