@@ -2,7 +2,7 @@
 
 To be audited:
 
-- [HoprChannels.sol](https://github.com/hoprnet/hoprnet/blob/ac3e541ee8b33ef3a76362b6a5c2b35263280769/packages/ethereum/contracts/HoprChannels.sol)
+- [HoprChannels.sol](https://github.com/hoprnet/hoprnet/blob/06eb3b0898c49ab2eb3f69b9eb4f3e51f82bb637/packages/ethereum/contracts/HoprChannels.sol)
 
 # Scope of Audit
 
@@ -10,7 +10,7 @@ In the first iteration of the HoprChannels audit, we want to ensure that the sma
 
 ## HoprChannels
 
-[[source code](https://github.com/hoprnet/hoprnet/blob/ac3e541ee8b33ef3a76362b6a5c2b35263280769/packages/ethereum/contracts/HoprChannels.sol)]
+[[source code](https://github.com/hoprnet/hoprnet/blob/06eb3b0898c49ab2eb3f69b9eb4f3e51f82bb637/packages/ethereum/contracts/HoprChannels.sol)]
 
 HoprChannels should:
 
