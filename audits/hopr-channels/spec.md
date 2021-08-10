@@ -21,17 +21,19 @@ HoprChannels should:
   - must require `userData` to be a specific length for it to call `fundChannelMulti`
   - decoded `userData` should allow for channel funding
 - should allow user to announce herself
-- should allow user fund & open a payment channel
+- should allow user to fund a payment channel
   - source & destination must not be the same
   - source & destination must not be null addresses
   - fund amount must be larger than 0
   - channel must not be `PENDING_TO_CLOSE`
-  - if channel is `CLOSED`, it should set it to `WAITING_FOR_COMMITMENT`
-  - if channel is `WAITING_FOR_COMMITMENT` it should set it to `OPEN`
+  - if channel is `CLOSED` and `commitment` is **not set**, it should set it to `WAITING_FOR_COMMITMENT`
+  - if channel is `CLOSED` and `commitment` is **set**, it should set it to `OPEN`
+  - if channel is `WAITING_FOR_COMMITMENT`, it should set it to `OPEN`
   - update channel state
     - channelEpoch
     - ticketEpoch
     - ticketIndex
+    - balance
   - emit channel update event
 - should allow user to redeem a valid ticket
   - source & destination must not be the same
