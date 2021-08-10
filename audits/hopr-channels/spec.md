@@ -28,8 +28,7 @@ HoprChannels should:
   - channel must not be `PENDING_TO_CLOSE`
   - if channel is `CLOSED` and `commitment` is **not set**, it should set it to `WAITING_FOR_COMMITMENT`
   - if channel is `CLOSED` and `commitment` is **set**, it should set it to `OPEN`
-  - if channel is `WAITING_FOR_COMMITMENT` and `commitment` is **set**, it should set it to `OPEN`
-  - if channel is `WAITING_FOR_COMMITMENT` and `commitment` is **not set**, it should keep it to `WAITING_FOR_COMMITMENT`
+  - if channel is `WAITING_FOR_COMMITMENT`, it should set it to `OPEN`
   - update channel state
     - channelEpoch
     - ticketEpoch
